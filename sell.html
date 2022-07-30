@@ -103,6 +103,7 @@
 						<div class="navbar-nav mr-auto py-0">
 							<a href="login.html" class="nav-item nav-link">Login</a>
 							<a href="sell.html" class="nav-item nav-link active">Sell</a>
+							<a href="buy.html" class="nav-item nav-link">Buy</a>
 							<a href="contact.html" class="nav-item nav-link">Contact</a>
 						</div>
 					</div>
@@ -115,7 +116,7 @@
 
 
 
-	<section class="ftco-section img bg-hero" style="background-image: url(img/plastic-recycling-955x500.jpg);">
+	<section class="ftco-section img bg-hero" style="background-image: url(img/plastic-recycling-955x500.jpg); background-size: 300px; background-position: center;">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-md-6 text-center mb-5">
@@ -167,8 +168,6 @@
 								<div class="contact-wrap w-100 p-md-5 p-4">
 									<h3 class="mb-4">Enter the details</h3>
 									<div id="form-message-warning" class="mb-4"></div> 
-				      		<div id="form-message-success" class="mb-4">
-				            Your message was sent, thank you!
 				      		</div>
 									<form method="POST" id="contactForm" name="contactForm">
 										<div class="row">
@@ -188,33 +187,33 @@
 												</div>
 											</div>
 											<div class="col-md-12"> 
-												<div class="form-group">
-											<label for="membership">Select the type of plastic</label>
-													<select name="membership" id="membership">
-													<option value="Acrylic or Polymethyl Methacrylate (PMMA)">Acrylic or Polymethyl Methacrylate (PMMA) </option>
-													<option value="Polycarbonate (PC) ">Polycarbonate (PC) </option>
-													<option value="Polyethylene (PE)" selected>Polyethylene (PE)</option>
-													<option value="Polypropylene (PP)">Polypropylene (PP)</option>
-													<option value="Polyethylene Terephthalate (PETE or PET)">Polyethylene Terephthalate (PETE or PET)</option>
-													<option value="Polyvinyl Chloride (PVC)">Polyvinyl Chloride (PVC)</option>
-													<option value="Acrylonitrile-Butadiene-Styrene (ABS)">Acrylonitrile-Butadiene-Styrene (ABS)</option>
-													</select>
+												<div class="dropdown">
+												  <button class="dropbtn">Select type of plastic</button>
+												  <div class="dropdown-content">
+												    <a href="#">Acrylic or Polymethyl Methacrylate (PMMA)</a>
+												    <a href="#">Polycarbonate (PC)</a>
+												    <a href="#">Polyethylene (PE)</a>
+												    <a href="#">Polypropylene (PP)</a>
+												    <a href="#">Polyethylene Terephthalate (PETE or PET)</a>
+												    <a href="#">Polyvinyl Chloride (PVC)</a>
+												    <a href="#">Acrylonitrile-Butadiene-Styrene (ABS)</a>
+												  </div>
 												</div>
 											</div>
-											<div class="col-md-12"> 
-												<div class="form-group">
-											<label for="membership">Select your nearby centre</label>
-													<select name="membership" id="membership">
-													<option value="Anthoor">Anthoor</option>
-													<option value="Iritty">Iritty</option>
-													<option value="Koothuparambu" selected>Koothuparambu</option>
-													<option value="Mattannur">Mattannur</option>
-													<option value="Panoor">Panoor</option>
-													<option value="Payyanur">Payyanur</option>
-													<option value="Sree Kandapuram">Sree Kandapuram</option>
-													<option value="Thalassery">Thalassery</option>
-													<option value="Thaliparamba">Thaliparamba</option>
-													</select>
+											<div class="col-md-12">
+											 <div class="dropdown">
+												  <button class="dropbtn">Select municipality</button>
+												  <div class="dropdown-content">
+												    <a href="#">Anthoor</a>
+												    <a href="#">Iritty</a>
+												    <a href="#">Koothuparambu</a>
+												    <a href="#">Mattannur</a>
+												    <a href="#">Panoor</a>
+												    <a href="#">Payyanur</a>
+												    <a href="#">Sree Kandapuram</a>
+												    <a href="#">Thalassery</a>
+												    <a href="#">Thaliparamba</a>
+												  </div>
 												</div>
 											</div>
 											<div class="col-md-12">
